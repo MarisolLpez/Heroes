@@ -1,0 +1,134 @@
+*{
+    /* border-style: solid;
+    border-width: 1px; */
+    font-family: Roboto, sans-serif;
+}
+
+header{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background-color: #1CD1B0;
+    padding: 8px 0;
+    
+}
+
+header>p{
+    margin: 3px 0 3px 3px;
+}
+
+nav{
+    position: absolute;
+    top: 40px;
+    right: 0%;
+    left: 0%;
+    background-color: #00669F;
+    margin: 0%;
+    padding: 10px;
+}
+
+h1{
+    margin: 3px 0 3px 3px;
+}
+
+.character{
+    width: 300px;
+    height: 529px;
+    box-sizing: border-box;
+    margin-top: 70px;
+    background-color: #F3F3F3;
+}
+
+#principal-photo{
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 130px;
+    left: 89px;
+} 
+
+div>p{
+    font-weight: 400;
+    font-size: 16px;
+    margin: auto 15px 30px;
+}
+
+#harley{
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 150px);
+    bottom: 500px;
+}
+
+#batman{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    bottom: 500px;
+}
+
+#superman{
+    position: absolute;
+    top: 200px;
+    right: 100px;
+    bottom: 500px;
+}
+
+footer{
+    position: absolute;
+    top: 1000px;
+    right: 0%;
+    left: 0%;
+    background-color: #00669F;
+}
+
+footer>p{
+    margin: 3px 0 3px 3px;
+    color: white;
+}
+
+#batman>div.banner{
+    height: 190px;
+    background-image: url(../img/fondo-batman.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#harley>div.banner{
+    height: 190px;
+    background-image: url(../img/fondo-harley.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#superman>div.banner{
+    height: 190px;
+    background-image: url(../img/fondo-superman.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    background-size: 300px 100%;
+}
+
+h3{
+    margin-top: 80px;
+    text-align: center;
+}
+
+div>p#ver-mas{
+    text-align: center;
+    width: 100px;
+    padding: 8px;
+    margin: 0 89px;
+    background-color: #00669F;
+    color: white;
+}
+
+.character>p{
+    height: 22%;
+}
